@@ -1,0 +1,10 @@
+CHANGELOG
+=========
+
+1.0 (unreleased)
+-------------------
+
+- Initial release with mongodb utils
+
+
+
