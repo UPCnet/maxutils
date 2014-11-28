@@ -19,6 +19,7 @@ A collection of methods and classes subject to be used accross all max component
       zip_safe=False,
       install_requires=[
           # -*- Extra requirements: -*-
+          'pymongo'
       ],
       entry_points="""
       # -*- Entry points: -*-
