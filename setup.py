@@ -3,6 +3,7 @@ import sys, os
 
 version = '1.0.2.dev0'
 
+
 setup(name='maxutils',
       version=version,
       description="Common utilities for mx software family",
@@ -19,7 +20,9 @@ A collection of methods and classes subject to be used accross all max component
       zip_safe=False,
       install_requires=[
           # -*- Extra requirements: -*-
-          'pymongo'
+          'pymongo',
+          'setuptools',
+          'ipdb'
       ],
       entry_points="""
       # -*- Entry points: -*-
